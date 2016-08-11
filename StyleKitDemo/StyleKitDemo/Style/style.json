@@ -2,7 +2,10 @@
     "StyleKitDemo.SKLabel": {
         "font": "HelveticaNeue-Bold:30.0",
         "backgroundColor": "#000FFF",
-        "color": "#fff"
+        "color": "#fff",
+		"cornerRadius": "20.0",
+		"borderWidth": "3.0",
+		"borderColor": "#000"
     },
     "StyleKitDemo.SKView": {
         "StyleKitDemo.SKLabel": {
@@ -14,9 +17,9 @@
             "font": "HelveticaNeue-Light:20.0",
             "normalBackgroundColor": "#000FFF",
             "highlightedBackgroundColor": "#FFF000",
-            "titleColor:normal":"#FFFFFF",
-            "titleColor:highlighted":"#000000",
-            "style":"secondary"
+            "titleColor:normal": "#FFFFFF",
+            "titleColor:highlighted": "#000000",
+            "style": "secondary"
         }
     },
     "StyleKitDemo.SKNavigationBar": {
@@ -29,9 +32,9 @@
         "font": "HelveticaNeue-Light:15.0",
         "normalBackgroundColor": "#FFF000",
         "highlightedBackgroundColor": "#FFFFFF",
-        "titleColor:normal":"#00FF00",
-        "titleColor:highlighted":"#000000",
-        "style":"primary"
+        "titleColor:normal": "#00FF00",
+        "titleColor:highlighted": "#000000",
+        "style": "primary"
     },
     "StyleKitDemo.SKTextField": {
         "font": "HelveticaNeue-Light:20.0",
