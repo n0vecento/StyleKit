@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		059932DC1D59E0DF0085E522 /* SKTryCatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 059932DB1D59E0DF0085E522 /* SKTryCatch.m */; };
 		059932DD1D59E1950085E522 /* SKTryCatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 059932D81D59E09D0085E522 /* SKTryCatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30E7BBB21D5C765200AE309C /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E7BBB11D5C765200AE309C /* UIViewExtensions.swift */; };
 		992723731D5B36D700B74CDD /* UIAppearance+Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 992723711D5B36D700B74CDD /* UIAppearance+Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		992723741D5B36D700B74CDD /* UIAppearance+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = 992723721D5B36D700B74CDD /* UIAppearance+Swift.m */; };
 		996775991D5A2E8E005DA08A /* StyleParsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996775981D5A2E8E005DA08A /* StyleParsable.swift */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		059932D81D59E09D0085E522 /* SKTryCatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKTryCatch.h; sourceTree = "<group>"; };
 		059932DB1D59E0DF0085E522 /* SKTryCatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTryCatch.m; sourceTree = "<group>"; };
+		30E7BBB11D5C765200AE309C /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		992723711D5B36D700B74CDD /* UIAppearance+Swift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAppearance+Swift.h"; sourceTree = "<group>"; };
 		992723721D5B36D700B74CDD /* UIAppearance+Swift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAppearance+Swift.m"; sourceTree = "<group>"; };
 		996775981D5A2E8E005DA08A /* StyleParsable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyleParsable.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 				A104CE3E1D57E9D200626F2A /* StringExtensions.swift */,
 				059932D81D59E09D0085E522 /* SKTryCatch.h */,
 				059932DB1D59E0DF0085E522 /* SKTryCatch.m */,
+				30E7BBB11D5C765200AE309C /* UIViewExtensions.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 				059932DC1D59E0DF0085E522 /* SKTryCatch.m in Sources */,
 				A10FD6C81D556A9C00341EDD /* Stylist.swift in Sources */,
 				A104CE431D580D6A00626F2A /* ColorExtensions.swift in Sources */,
+				30E7BBB21D5C765200AE309C /* UIViewExtensions.swift in Sources */,
 				9967759F1D5A3691005DA08A /* ColorHelper.swift in Sources */,
 				992723741D5B36D700B74CDD /* UIAppearance+Swift.m in Sources */,
 				A1D8B1221D57C28A00355807 /* StyleParser.swift in Sources */,

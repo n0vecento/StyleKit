@@ -132,47 +132,9 @@ class Stylist {
                 }
             } else {
                 self.currentComponent?.appearance().performSelector(Selector(modifiedSelector), withObject: valueOne!)
-				if modifiedSelector == "setCornerRadius:" {
-					let view = UIView()
-					view.setCornerRadius(10.0)
-				}
             }
         }
 		
     }
     
-}
-
-extension UIView {
-
-	public func setCornerRadius(cornerRadius: CGFloat) {
-		self.layer.cornerRadius = cornerRadius;
-		self.clipsToBounds = true
-	}
-
-	public func setBorderColor(borderColor: UIColor) {
-		self.layer.borderColor = borderColor.CGColor;
-	}
-
-	public func setBorderWidth(borderWidth: CGFloat) {
-		self.layer.borderWidth = borderWidth;
-	}
-
-//	dynamic var borderColor: UIColor? {
-//		get {
-//			if let cgColor = layer.borderColor {
-//				return UIColor(CGColor: cgColor)
-//			}
-//			return nil
-//		}
-//		set { layer.borderColor = newValue?.CGColor }
-//	}
-//	dynamic var borderWidth: CGFloat {
-//		get { return layer.borderWidth }
-//		set { layer.borderWidth = newValue }
-//	}
-//	dynamic var cornerRadius: CGFloat {
-//		get { return layer.cornerRadius }
-//		set { layer.cornerRadius = newValue }
-//	}
 }
